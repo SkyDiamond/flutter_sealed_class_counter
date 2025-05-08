@@ -1,16 +1,24 @@
-# flutter_sealed_class_counter
+# Flutter Sealed Class Counter
 
-A new Flutter project.
+โปรเจกต์ Flutter ตัวอย่างการใช้ sealed classes และ pattern matching ในแอปเคาน์เตอร์
 
-## Getting Started
+## ภาพรวมโปรเจกต์
 
-This project is a starting point for a Flutter application.
+แอปเคาน์เตอร์ที่มีฟีเจอร์:
 
-A few resources to get you started if this is your first Flutter project:
+* เพิ่ม/ลดค่าเคาน์เตอร์
+* รีเซ็ตเคาน์เตอร์เป็นศูนย์
+* แสดงแจ้งเตือนเมื่อค่ากลายเป็นลบ
+* ใช้ sealed classes และ pattern matching
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ข้อกำหนด
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+แอปต้อง:
+
+1. แสดงค่าของเคาน์เตอร์
+2. ปุ่ม:
+
+   * เพิ่ม (+1)
+   * ลด (-1)
+   * รีเซ็ตเป็นศูนย์
+3. แสดงแจ้งเตือนเมื่อค่าลบ
